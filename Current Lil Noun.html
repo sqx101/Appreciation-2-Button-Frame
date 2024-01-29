@@ -1,0 +1,37 @@
+<!--
+ * File: Lil Nouns Frame
+ * Author: SQX
+ * Date: 2024-01-29
+ * Description: This is a frame built to show the current Lil on the block by
+ * tapping one button and minting a lil by tapping another.
+ * License: MIT License
+ *
+ * Additional Comments:
+ * - Revision History: 
+ *   - 2024-01-29: Initial version
+-->
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta name="og:title" content="Static Image and Buttons Frame">
+    <meta name="fc:frame" content="vNext">
+    <!-- Additional Farcaster-specific meta tags -->
+</head>
+<body>
+    <img src="https://i.postimg.cc/4xsjmW2X/Lil-Nouns-DAO-Banner-smol.png" alt="Static Image">
+    <button id="liveButton">See What's Live</button>
+    <button id="mintButton">Mint</button>
+
+    <!-- Optional: JavaScript for button functionality -->
+    <script>
+        document.getElementById('liveButton').addEventListener('click', function() {
+            window.location.href = 'https://lilblockparty.wtf/';
+        });
+    
+        document.getElementById('mintButton').addEventListener('click', function() {
+            window.location.href = 'https://lilnouns.wtf/';
+        });
+    </script>
+</body>
+</html>
